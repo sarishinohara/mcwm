@@ -31,10 +31,6 @@
  * Can be set from command line with "-t program".
  */
 #define TERMINAL "urxvt"
-#define SAKURA "sakura"
-#define ROFI "rofir"
-#define DMENU "dmenuu"
-#define LOCK "i3lock-next"
 
 /*
  * Do we allow windows to be iconified? Set to true if you want this
@@ -80,9 +76,6 @@
 #define USERKEY_MAXVERT 	XK_M
 #define USERKEY_RAISE 		XK_R
 #define USERKEY_TERMINAL 	XK_Return
-#define USERKEY_SAKURA 	        XK_T
-#define USERKEY_ROFI 	        XK_Z
-#define USERKEY_DMENU     	XK_D
 #define USERKEY_MAX 		XK_X
 #define USERKEY_CHANGE 		XK_Tab
 #define USERKEY_BACKCHANGE	XK_VoidSymbol
@@ -94,7 +87,7 @@
 #define USERKEY_WS6		XK_6
 #define USERKEY_WS7		XK_7
 #define USERKEY_WS8		XK_8
-#define USERKEY_LOCK		XK_9
+#define USERKEY_WS9		XK_VoidSymbol
 #define USERKEY_WS10		XK_VoidSymbol
 #define USERKEY_PREVWS          XK_C
 #define USERKEY_NEXTWS          XK_V
